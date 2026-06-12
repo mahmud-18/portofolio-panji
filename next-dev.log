@@ -1,0 +1,10 @@
+
+> premium-portfolio-template@1.0.0 dev
+> next dev --port 3005
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3005
+   - Network:      http://192.168.100.7:3005
+
+ ✓ Starting...
+ ✓ Ready in 21.1s

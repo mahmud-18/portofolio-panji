@@ -1,308 +1,489 @@
 export const portfolioContent = {
   site: {
-    name: "Panji",
+    name: "Panji Pangestu",
     fullName: "Panji Pangestu",
-    role: "Administrasi Operasional & Komputer",
+    role: "Operations, Events & Business Administration Professional",
     location: "Bandung, Indonesia",
     email: "ppangestul5@gmail.com",
-    phone: "081224541996",
-    availability: "Terbuka untuk peluang kerja",
+    phone: "+62 812 2454 1996",
+    availability: "Open to new opportunities",
     avatar: {
-      src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=85",
-      alt: "Foto profil placeholder Panji Pangestu"
+      src: "/Panji.jpeg",
+      alt: "Portrait of Panji Pangestu, Operations and Events Professional",
     },
     description:
-      "Portfolio personal Panji Pangestu berdasarkan CV, menampilkan profil, pengalaman kerja, pendidikan, keahlian, dan kontak."
+      "Personal brand portfolio for Panji Pangestu, an adaptable operations, events, customer service, and business administration professional based in Bandung, Indonesia.",
   },
   metadata: {
-    title: "Panji Pangestu - Administrasi Operasional & Komputer",
+    title: "Panji Pangestu - Operations, Events & Business Administration",
     description:
-      "Profil Panji Pangestu, pribadi aktif, teliti, detail, cepat belajar, memiliki basic teknologi, kemampuan komputer, komunikasi, dan pengalaman kerja operasional."
+      "Portfolio of Panji Pangestu, an active and detail-oriented professional with experience in operations, events, customer service, warehouse management, online business, and administration.",
   },
   nav: {
-    label: "Navigasi utama",
+    label: "Primary navigation",
     items: [
       { label: "Home", href: "#top", icon: "home" },
-      { label: "Tentang", href: "#about", icon: "user" },
-      { label: "Keahlian", href: "#skills", icon: "zap" },
-      { label: "Pengalaman", href: "#work", icon: "rocket" },
-      { label: "Pendidikan", href: "#experience", icon: "briefcase" },
-      { label: "Kontak", href: "#contact", icon: "mail" }
+      { label: "About", href: "#about", icon: "user" },
+      { label: "Skills", href: "#skills", icon: "zap" },
+      { label: "Work", href: "#work", icon: "rocket" },
+      { label: "Education", href: "#experience", icon: "briefcase" },
+      { label: "Contact", href: "#contact", icon: "mail" },
     ],
-    menuOpenLabel: "Buka menu",
-    menuCloseLabel: "Tutup menu",
-    cta: { label: "Hubungi Saya", href: "mailto:ppangestul5@gmail.com" }
+    menuOpenLabel: "Open menu",
+    menuCloseLabel: "Close menu",
+    cta: { label: "Contact Me", href: "mailto:ppangestul5@gmail.com" },
   },
   hero: {
-    status: "Terbuka untuk peluang kerja",
+    status: "Open to new opportunities",
     name: "PANJI PANGESTU",
-    roles: ["Aktif", "Teliti", "Detail", "Siap Belajar"],
+    roles: ["Operations", "Events", "Business Admin", "Customer Service"],
     intro:
-      "Saya adalah pribadi yang aktif, teliti, dan detail dalam bekerja. Saya memiliki kemauan kuat untuk terus belajar, berkembang, dan menyelesaikan tugas secara efisien serta tepat waktu.",
-    primaryAction: { label: "Lihat Pengalaman", href: "#work" },
-    secondaryAction: { label: "Hubungi Saya", href: "mailto:ppangestul5@gmail.com" },
-    locationLabel: "Berdomisili di",
+      "An active, detail-oriented professional with strong computer skills, fast learning ability, and hands-on experience across operations, events, warehouse management, online business, customer service, and media production.",
+    primaryAction: { label: "Explore Work", href: "#work" },
+    secondaryAction: {
+      label: "Contact Me",
+      href: "mailto:ppangestul5@gmail.com",
+    },
+    locationLabel: "Based in",
     scrollLabel: "Scroll",
     socials: [
       { label: "Instagram", href: "https://www.instagram.com/ppangestu_" },
       { label: "Facebook", href: "https://www.facebook.com/PPangestu" },
-      { label: "Email", href: "mailto:ppangestul5@gmail.com" }
+      { label: "Email", href: "mailto:ppangestul5@gmail.com" },
     ],
     quickStats: [
-      { value: "5", label: "pengalaman kerja" },
-      { value: "3", label: "riwayat pendidikan" },
-      { value: "1999", label: "tahun kelahiran" }
-    ]
+      { value: "9+", label: "work experience areas" },
+      { value: "4", label: "core capability groups" },
+      { value: "1999", label: "year of birth" },
+    ],
+    focusCards: [
+      { label: "Strength", value: "Detail-oriented execution" },
+      { label: "Mindset", value: "Fast learner and reliable teammate" },
+      { label: "Range", value: "Operations, events, service, media" },
+    ],
   },
   about: {
     id: "about",
-    eyebrow: "Tentang",
-    title: "Pribadi aktif, teliti, dan siap berkembang dalam dunia kerja.",
-    subtitle: "Mengedepankan ketelitian, komunikasi, dan kemauan belajar.",
-    nameLabel: "Profil",
-    roleLabel: "Bidang",
+    eyebrow: "About",
+    title:
+      "Reliable, adaptable, and ready to contribute across fast-moving work environments.",
+    subtitle:
+      "A practical professional profile shaped by operations, service, coordination, and learning agility.",
+    nameLabel: "Profile",
+    roleLabel: "Professional Focus",
     body: [
-      "Saya adalah orang yang aktif, teliti, dan detail dalam bekerja di setiap pekerjaan. Saya memiliki kemauan yang kuat untuk selalu belajar serta semangat untuk terus berkembang dalam karir saya.",
-      "Dengan pengetahuan yang kuat dalam penggunaan komputer, saya mampu menyelesaikan tugas-tugas dengan efisien dan tepat waktu. Saya juga memiliki kemampuan mengemudi yang baik sehingga dapat mendukung mobilitas dan fleksibilitas dalam pekerjaan.",
-      "Selain itu, saya dikenal sebagai pendengar yang baik dan siap memahami kebutuhan rekan kerja maupun klien. Kemampuan ini membantu saya berkolaborasi dengan baik dalam tim dan menciptakan lingkungan kerja yang harmonis serta produktif."
+      "I am an active and detail-oriented professional with strong computer skills and a genuine passion for learning. I thrive in collaborative environments and take pride in completing tasks efficiently and on time.",
+      "I am known for being a good listener, always ready to understand the needs of colleagues and clients. My experience spans operational management, event coordination, customer service, business administration, warehouse operations, and media production.",
+      "I adapt quickly to new challenges and am committed to contributing meaningfully to any team I join. I bring practical execution, communication, discipline, and a hands-on mindset to every role.",
     ],
     details: [
-      { label: "Tanggal Lahir", value: "26 Mei 1999" },
-      { label: "Telepon", value: "081224541996" },
+      { label: "Phone", value: "+62 812 2454 1996" },
       { label: "Email", value: "ppangestul5@gmail.com" },
-      {
-        label: "Alamat",
-        value: "Jl. Bbk Tarogong, Gg. Sindang Asih, RT 08/RW 04, Kel. Suka Asih, Kec. Bojongloa Kaler"
-      },
-      { label: "Instagram", value: "ppangestu_" },
-      { label: "Facebook", value: "P Pangestu" }
+      { label: "Location", value: "Bandung, Indonesia" },
+      { label: "Date of Birth", value: "May 26, 1999" },
+      { label: "Instagram", value: "@ppangestu_" },
+      { label: "Facebook", value: "PPangestu" },
     ],
     highlights: [
-      "Memiliki sikap yang baik dan mampu berkomunikasi dengan baik.",
-      "Terbiasa bekerja keras, mengatur waktu, dan menyelesaikan tugas secara tepat waktu.",
-      "Memiliki basic teknologi, keahlian komputer, dan kemampuan mengemudi yang mendukung mobilitas kerja."
-    ]
+      "Strong experience across warehouse operations, business administration, customer service, event execution, and media production.",
+      "Comfortable working with Microsoft Excel, Google Sheets, Canva Design, basic IT support, and online shop operations.",
+      "Known for good communication, time management, attention to detail, community engagement, and a willingness to keep learning.",
+    ],
   },
   marquee: {
-    label: "Nilai utama",
+    label: "Professional strengths",
     items: [
-      "Aktif",
-      "Teliti",
-      "Detail",
-      "Kerja Keras",
-      "Manajemen Waktu",
-      "Komunikasi",
-      "Pendengar yang Baik",
-      "Basic Teknologi"
-    ]
+      "Operations",
+      "Event Coordination",
+      "Customer Service",
+      "Business Administration",
+      "Warehouse Management",
+      "Marketplace Operations",
+      "Data Administration",
+      "Media Production",
+    ],
   },
   skills: {
     id: "skills",
-    eyebrow: "Keahlian",
-    title: "Keahlian yang mendukung pekerjaan operasional dan administrasi.",
+    eyebrow: "Core Skills",
+    title: "Hands On Skills",
     intro:
-      "Keahlian disusun dari isi CV: sikap kerja, komunikasi, manajemen waktu, kemampuan komputer, basic teknologi, dan fleksibilitas kerja.",
-    toolchainLabel: "Fokus kemampuan",
+      "Nine years of diverse experience distilled into four core capability areas. Each skill cluster represents proven impact across operations, administration, events, and customer-facing work.",
     clusters: [
       {
-        name: "Sikap Kerja",
+        name: "Technical & Software",
         accent: "#080808",
-        summary: "Kualitas personal yang membantu menjaga konsistensi dan tanggung jawab dalam pekerjaan.",
-        skills: ["Sikap yang Baik", "Kerja Keras", "Teliti", "Detail", "Kemauan Belajar", "Tanggung Jawab"]
+        summary:
+          "Digital tools and computer-based skills that support daily administration and operational work.",
+        skills: [
+          "Microsoft Excel",
+          "Google Sheets",
+          "Canva Design",
+          "Basic IT Support",
+          "Data Administration",
+          "Social Media Management",
+        ],
       },
       {
-        name: "Komunikasi & Kolaborasi",
-        accent: "#5f5f5f",
-        summary: "Kemampuan untuk memahami kebutuhan rekan kerja, klien, dan bekerja nyaman dalam tim.",
-        skills: ["Komunikasi yang Baik", "Pendengar yang Baik", "Kerja Tim", "Memahami Kebutuhan Klien", "Kolaborasi"]
+        name: "Business Operations",
+        accent: "#555555",
+        summary:
+          "Hands-on operational experience from warehouse flow to marketplace, retail, and food business operations.",
+        skills: [
+          "Marketplace Operations",
+          "Warehouse Management",
+          "Inventory Control",
+          "Retail Operations",
+          "Order Processing",
+          "Business Administration",
+        ],
       },
       {
-        name: "Teknologi & Operasional",
-        accent: "#a1a1a1",
-        summary: "Kemampuan dasar yang membantu pekerjaan administrasi, operasional, dan mobilitas kerja.",
-        skills: ["Basic Teknologi", "Keahlian Komputer", "Manajemen Waktu", "Efisiensi Kerja", "Mengemudi", "Mobilitas"]
-      }
+        name: "Coordination & Service",
+        accent: "#9a9a9a",
+        summary:
+          "People-facing strengths for events, clients, team coordination, and customer satisfaction.",
+        skills: [
+          "Customer Service",
+          "Good Communication",
+          "Time Management",
+          "Attention to Detail",
+          "Team Coordination",
+          "Community Engagement",
+        ],
+      },
     ],
-    toolchain: ["Komputer", "Administrasi", "Operasional", "Komunikasi", "Manajemen Waktu", "Mengemudi", "Kolaborasi", "Disiplin"]
+    toolchain: [
+      "Excel",
+      "Google Sheets",
+      "Canva",
+      "Basic IT",
+      "Marketplace",
+      "Warehouse",
+      "Events",
+      "Customer Service",
+    ],
   },
   projects: {
     id: "work",
-    eyebrow: "Pengalaman",
-    title: "Pengalaman kerja dari berbagai lingkungan operasional.",
+    eyebrow: "Work Experience",
+    title: "Work I've done, skills I've built, and lessons I carry forward.",
     intro:
-      "Riwayat pengalaman kerja menunjukkan kemampuan beradaptasi, disiplin, pelayanan, operasional, serta ketelitian dalam menjalankan tugas.",
-    viewLabel: "Hubungi",
-    codeLabel: "Email",
-    featuredLabel: "Pengalaman",
-    projectLabel: "Riwayat",
+      "From warehouse floors to wedding venues, every experience on this page shaped how I think, work, and show up for a team. Here's a closer look at each role and what it meant professionally.",
+    featuredLabel: "Featured Experience",
+    projectLabel: "Experience",
     labels: {
-      problem: "Peran",
-      solution: "Kontribusi",
-      outcome: "Nilai Kerja",
-      stack: "Keahlian Terkait"
+      problem: "Role Context",
+      solution: "Contribution",
+      outcome: "Professional Value",
+      stack: "Related Skills",
     },
     items: [
       {
-        title: "PT. Kontak Perkasa Futures",
-        category: "Pengalaman kerja",
+        title: "Shopee Warehouse Operator",
+        category: "Warehouse Operations | Recent",
         number: "01",
         featured: true,
         image: {
-          src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=85",
-          alt: "Suasana kerja administrasi profesional"
+          src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=85",
+          alt: "Modern warehouse operations environment",
         },
-        problem: "Bekerja di lingkungan perusahaan yang membutuhkan kedisiplinan, komunikasi, dan ketelitian.",
+        problem:
+          "Worked in a fast-paced warehouse environment handling inbound and outbound package operations.",
         solution:
-          "Menjalankan tugas dengan sikap aktif, detail, dan kesiapan untuk memahami kebutuhan pekerjaan maupun rekan kerja.",
+          "Managed package sorting and quality control while following systematic operational workflows.",
         outcome:
-          "Membangun dasar pengalaman profesional dalam lingkungan kerja formal dan operasional.",
-        stack: ["Komunikasi", "Ketelitian", "Disiplin", "Adaptasi"],
+          "Built stronger accuracy, speed, discipline, and reliability in a high-volume operations setting.",
+        stack: [
+          "Warehouse Operations",
+          "Sorting",
+          "Quality Control",
+          "Accuracy",
+        ],
         links: {
           live: "mailto:ppangestul5@gmail.com",
-          github: "mailto:ppangestul5@gmail.com"
-        }
+          github: "mailto:ppangestul5@gmail.com",
+        },
       },
       {
-        title: "Operator Warnet",
-        category: "Desember 2018 - Juni 2019",
+        title: "Business Manager",
+        category: "Satu Rasa Merchandise and Food Operations | Recent",
         number: "02",
-        featured: false,
+        featured: true,
         image: {
-          src: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
-          alt: "Meja komputer untuk pekerjaan operator"
+          src: "Business.jpeg",
+          alt: "Retail and merchandise business operations",
         },
-        problem: "Menangani kebutuhan pengguna dan operasional komputer harian.",
+        problem:
+          "Handled merchandise and food business operations that required inventory, staff, and administrative control.",
         solution:
-          "Mendukung pengguna, menjaga kelancaran layanan, serta menggunakan kemampuan komputer dalam pekerjaan sehari-hari.",
+          "Managed inventory control and business administration from warehouse to retail operations, including multiple KLAS kebab outlets.",
         outcome:
-          "Menguatkan kemampuan komputer, pelayanan, komunikasi, dan penyelesaian tugas secara cepat.",
-        stack: ["Komputer", "Pelayanan", "Komunikasi", "Problem Solving"],
+          "Strengthened leadership, administration, outlet coordination, and practical business management experience.",
+        stack: [
+          "Inventory Control",
+          "Business Administration",
+          "Staff Coordination",
+          "Retail Operations",
+        ],
         links: {
           live: "mailto:ppangestul5@gmail.com",
-          github: "mailto:ppangestul5@gmail.com"
-        }
+          github: "mailto:ppangestul5@gmail.com",
+        },
       },
       {
-        title: "Story Land",
-        category: "Juli 2019 - Oktober 2019",
+        title: "Event Coordinator & Project Manager",
+        category: "Event Organizer, Community Group | Recent",
         number: "03",
         featured: false,
         image: {
-          src: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1200&q=85",
-          alt: "Lingkungan pelayanan pelanggan"
+          src: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=85",
+          alt: "Event coordination and project management",
         },
-        problem: "Bekerja dalam lingkungan pelayanan yang membutuhkan komunikasi dan kesiapan membantu pelanggan.",
+        problem:
+          "Coordinated community events and gaming tournaments that required planning, people management, and execution.",
         solution:
-          "Menjaga sikap kerja yang baik, mendengarkan kebutuhan pelanggan, dan menjalankan tugas secara bertanggung jawab.",
+          "Managed event preparation through delivery, including LAMASA gaming tournament coordination.",
         outcome:
-          "Mengembangkan kemampuan pelayanan, kerja tim, dan komunikasi dalam situasi kerja langsung.",
-        stack: ["Pelayanan", "Pendengar yang Baik", "Kerja Tim", "Tanggung Jawab"],
+          "Developed event planning, project management, community engagement, and team coordination skills.",
+        stack: [
+          "Event Planning",
+          "Project Management",
+          "Community Engagement",
+          "E-sports Tournament",
+        ],
         links: {
           live: "mailto:ppangestul5@gmail.com",
-          github: "mailto:ppangestul5@gmail.com"
-        }
+          github: "mailto:ppangestul5@gmail.com",
+        },
       },
       {
-        title: "Pizza Hut Delivery (PHD)",
-        category: "November 2019 - Maret 2020",
+        title: "Online Business Operator",
+        category: "Al-Fatiha Watch Company | Recent",
         number: "04",
         featured: false,
         image: {
-          src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=85",
-          alt: "Operasional restoran dan layanan makanan"
+          src: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
+          alt: "Online business and customer communication",
         },
-        problem: "Menjalankan pekerjaan dalam ritme operasional yang cepat dan membutuhkan ketepatan waktu.",
+        problem:
+          "Supported online shop administration, sales operations, product management, and customer communication.",
         solution:
-          "Mengutamakan kerja keras, manajemen waktu, komunikasi, serta kemampuan mobilitas dalam mendukung pekerjaan.",
+          "Handled order processing, customer messages, marketplace tasks, and product-related administration.",
         outcome:
-          "Terbiasa bekerja di lingkungan cepat, disiplin, dan berorientasi pada pelayanan.",
-        stack: ["Manajemen Waktu", "Kerja Keras", "Mobilitas", "Pelayanan"],
+          "Improved practical experience in marketplace operations, online sales flow, and service communication.",
+        stack: [
+          "Online Shop",
+          "Order Processing",
+          "Customer Communication",
+          "Product Management",
+        ],
         links: {
           live: "mailto:ppangestul5@gmail.com",
-          github: "mailto:ppangestul5@gmail.com"
-        }
+          github: "mailto:ppangestul5@gmail.com",
+        },
       },
       {
-        title: "PT. Akur Pratama (Yogya Group)",
-        category: "Maret 2020 - Juni 2020",
+        title: "Food and Beverage Warehouse Operator",
+        category: "Donat Syifa and Sumber Manis Bakery | Recent",
         number: "05",
         featured: false,
         image: {
-          src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=85",
-          alt: "Lingkungan retail dan operasional toko"
+          src: "Bakery.jpeg",
+          alt: "Food and beverage warehouse operations",
         },
-        problem: "Bekerja dalam lingkungan retail yang membutuhkan ketelitian, pelayanan, dan kedisiplinan operasional.",
+        problem:
+          "Managed warehouse operations for bakery products requiring inventory control and distribution logistics.",
         solution:
-          "Menjalankan tugas secara detail, menjaga komunikasi, serta mendukung kebutuhan operasional dengan sikap kerja yang baik.",
+          "Handled inventory management and distribution logistics for bakery products from Donat Syifa and Sumber Manis.",
         outcome:
-          "Memperkuat pengalaman dalam operasional retail, komunikasi pelanggan, dan tanggung jawab kerja.",
-        stack: ["Retail", "Operasional", "Ketelitian", "Komunikasi"],
+          "Strengthened warehouse management expertise in the food and beverage sector with focus on product handling and logistics.",
+        stack: [
+          "Warehouse Operations",
+          "Inventory Management",
+          "Distribution Logistics",
+          "Product Handling",
+        ],
         links: {
           live: "mailto:ppangestul5@gmail.com",
-          github: "mailto:ppangestul5@gmail.com"
-        }
-      }
-    ]
+          github: "mailto:ppangestul5@gmail.com",
+        },
+      },
+      {
+        title: "Wedding Coordinator",
+        category: "Satu Rasa Wedding | Recent",
+        number: "06",
+        featured: false,
+        image: {
+          src: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85",
+          alt: "Wedding coordination and event logistics",
+        },
+        problem:
+          "Assisted wedding events that required logistics, vendor coordination, and day-of execution.",
+        solution:
+          "Supported event coordination from preparation to execution, helping keep wedding activities organized.",
+        outcome:
+          "Built experience in client-facing coordination, logistics, vendor communication, and event detail management.",
+        stack: [
+          "Wedding Planning",
+          "Logistics",
+          "Vendor Coordination",
+          "Event Execution",
+        ],
+        links: {
+          live: "mailto:ppangestul5@gmail.com",
+          github: "mailto:ppangestul5@gmail.com",
+        },
+      },
+      {
+        title: "Photographer & Videographer",
+        category: "Freelance | Recent",
+        number: "07",
+        featured: false,
+        image: {
+          src: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=85",
+          alt: "Photography and videography production",
+        },
+        problem:
+          "Collaborated on visual production projects with professional photographers and videographers.",
+        solution:
+          "Supported shooting activities and developed practical skills in visual storytelling and media production.",
+        outcome:
+          "Expanded creative execution skills and the ability to support documentation, branding, and event media needs.",
+        stack: [
+          "Photography",
+          "Videography",
+          "Visual Storytelling",
+          "Media Production",
+        ],
+        links: {
+          live: "mailto:ppangestul5@gmail.com",
+          github: "mailto:ppangestul5@gmail.com",
+        },
+      },
+      {
+        title: "Textile Warehouse Assistant",
+        category: "BWR Knitwear Company | Recent",
+        number: "08",
+        featured: false,
+        image: {
+          src: "BWR.jpeg",
+          alt: "Textile warehouse and inventory management",
+        },
+        problem:
+          "Supported warehouse management operations for textile products requiring systematic sorting and storage.",
+        solution:
+          "Managed sorting, storage, and inventory coordination for textile products at BWR Knitwear Company.",
+        outcome:
+          "Developed specialized warehouse expertise in textile handling with focus on precise inventory coordination and storage systems.",
+        stack: [
+          "Warehouse Management",
+          "Sorting",
+          "Storage Management",
+          "Inventory Coordination",
+        ],
+        links: {
+          live: "mailto:ppangestul5@gmail.com",
+          github: "mailto:ppangestul5@gmail.com",
+        },
+      },
+      {
+        title: "Professional Driver",
+        category: "Motorcycle and Car Driver, Freelance | Recent",
+        number: "09",
+        featured: false,
+        image: {
+          src: "Driver.jpeg",
+          alt: "Professional driving and delivery services",
+        },
+        problem:
+          "Provided reliable driving services for personal delivery, ride services, and courier work.",
+        solution:
+          "Managed motorcycle and car driving operations with strong attention to safety protocols and delivery accuracy.",
+        outcome:
+          "Built experience in reliable service delivery, route management, and maintaining professional safety standards.",
+        stack: [
+          "Driving",
+          "Delivery Services",
+          "Courier Work",
+          "Safety Management",
+        ],
+        links: {
+          live: "mailto:ppangestul5@gmail.com",
+          github: "mailto:ppangestul5@gmail.com",
+        },
+      },
+    ],
   },
   experience: {
     id: "experience",
-    eyebrow: "Pendidikan",
-    title: "Riwayat pendidikan dan pembentukan dasar karakter kerja.",
+    eyebrow: "Education & Earlier Work",
+    title:
+      "A foundation built through education, service roles, and hands-on field experience.",
     intro:
-      "Pendidikan formal menjadi dasar kedisiplinan, pembelajaran, dan kesiapan Panji Pangestu untuk berkembang dalam karir.",
+      "This section keeps the earlier CV timeline visible while supporting the stronger professional story above.",
     roles: [
       {
         company: "MAN 1 Bandung",
-        role: "Pendidikan Menengah Atas",
+        role: "Senior High School",
         period: "2014 - 2017",
         summary:
-          "Menyelesaikan pendidikan menengah atas dan membangun dasar kedisiplinan, tanggung jawab, serta kesiapan memasuki dunia kerja.",
-        tags: ["Pendidikan", "Disiplin", "Tanggung Jawab", "Pengembangan Diri"]
+          "Completed senior high school education and built a foundation for discipline, responsibility, and career development.",
+        tags: ["Education", "Discipline", "Responsibility", "Learning"],
       },
       {
         company: "MTS Nurul Iman",
-        role: "Pendidikan Menengah Pertama",
+        role: "Junior High School",
         period: "2011 - 2014",
         summary:
-          "Menjalani pendidikan menengah pertama sebagai bagian dari proses pembentukan karakter dan kemampuan belajar.",
-        tags: ["Belajar", "Karakter", "Kedisiplinan", "Komunikasi"]
+          "Completed junior high school education as part of personal and academic development.",
+        tags: ["Education", "Character", "Learning", "Communication"],
       },
       {
         company: "MI Persis 29",
-        role: "Pendidikan Dasar",
+        role: "Primary School",
         period: "2006 - 2011",
         summary:
-          "Menyelesaikan pendidikan dasar sebagai fondasi awal dalam pembelajaran formal.",
-        tags: ["Pendidikan Dasar", "Fondasi Belajar", "Ketekunan"]
-      }
-    ]
+          "Completed primary school education as the early foundation for formal learning.",
+        tags: ["Primary Education", "Learning Foundation", "Consistency"],
+      },
+      {
+        company: "Earlier Work Experience",
+        role: "Operational and Service Roles",
+        period: "2018 - 2020",
+        summary:
+          "Worked at PT. Kontak Perkasa Futures, Internet Cafe Operator, Story Land, Pizza Hut Delivery, and PT. Akur Pratama (Yogya Group).",
+        tags: ["Customer Service", "Operations", "Retail", "Adaptability"],
+      },
+    ],
   },
   contact: {
     id: "contact",
-    eyebrow: "Kontak",
-    title: "Siap berdiskusi untuk peluang kerja dan kolaborasi profesional.",
+    eyebrow: "Contact",
+    title:
+      "Ready to support a team that values reliability, detail, and practical execution.",
     intro:
-      "Hubungi Panji Pangestu melalui telepon, email, Instagram, atau Facebook untuk informasi lebih lanjut mengenai profil dan ketersediaan kerja.",
+      "Reach out for work opportunities, operations roles, event coordination, customer service, warehouse administration, or business support positions.",
     emailLabel: "Email",
     email: "ppangestul5@gmail.com",
-    locationLabel: "Alamat",
-    location: "Jl. Bbk Tarogong, Gg. Sindang Asih, RT 08/RW 04, Kel. Suka Asih, Kec. Bojongloa Kaler, Bandung",
-    socialsLabel: "Media sosial",
+    locationLabel: "Location",
+    location: "Bandung, Indonesia",
+    socialsLabel: "Social Media",
     socials: [
       { label: "Instagram", href: "https://www.instagram.com/ppangestu_" },
       { label: "Facebook", href: "https://www.facebook.com/PPangestu" },
-      { label: "Email", href: "mailto:ppangestul5@gmail.com" }
+      { label: "Email", href: "mailto:ppangestul5@gmail.com" },
     ],
     form: {
-      title: "Kirim pesan",
-      nameLabel: "Nama",
+      title: "Send a message",
+      nameLabel: "Name",
       emailLabel: "Email",
-      messageLabel: "Pesan",
-      buttonLabel: "Kirim pesan"
-    }
+      messageLabel: "Message",
+      buttonLabel: "Send message",
+    },
   },
   footer: {
-    note: "Portfolio personal berdasarkan CV Panji Pangestu.",
-    copyright: "Panji Pangestu"
-  }
+    note: "Personal brand portfolio based on Panji Pangestu's English CV.",
+    copyright: "Panji Pangestu",
+  },
 };

@@ -12,7 +12,7 @@ export default function About({ about, site }) {
           <SectionHeading eyebrow={about.eyebrow} title={about.title} intro={about.subtitle} />
 
           <motion.div
-            className="glass-panel mt-8 overflow-hidden rounded-[2rem] p-4"
+            className="premium-card glass-panel mt-8 overflow-hidden rounded-[2rem] p-4"
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
@@ -55,9 +55,10 @@ export default function About({ about, site }) {
             {about.details.map((detail, index) => (
               <motion.div
                 key={detail.label}
-                className="rounded-2xl border border-ink/10 bg-white/70 p-5 shadow-[0_16px_44px_rgba(8,8,8,0.05)]"
+                className="premium-card rounded-2xl border border-ink/10 bg-white/70 p-5 shadow-[0_16px_44px_rgba(8,8,8,0.05)]"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                whileHover={{ y: -4 }}
                 viewport={{ once: true, amount: 0.35 }}
                 transition={{ duration: 0.55, delay: index * 0.05, ease: [0.22, 1, 0.36, 1] }}
               >
@@ -68,7 +69,7 @@ export default function About({ about, site }) {
           </div>
 
           <motion.div
-            className="rounded-[2rem] border border-ink/10 bg-white/80 p-6 shadow-[0_18px_56px_rgba(8,8,8,0.06)]"
+            className="premium-card rounded-[2rem] border border-ink/10 bg-white/80 p-6 shadow-[0_18px_56px_rgba(8,8,8,0.06)]"
             initial={{ opacity: 0, y: 22 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.35 }}

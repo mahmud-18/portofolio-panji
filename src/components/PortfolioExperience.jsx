@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import Lenis from "lenis";
-import { motion, useScroll, useSpring } from "framer-motion";
+import { motion, useMotionTemplate, useMotionValue, useScroll, useSpring } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
@@ -15,6 +15,9 @@ import ContactFooter from "@/components/ContactFooter";
 export default function PortfolioExperience({ content }) {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, { stiffness: 120, damping: 28, mass: 0.2 });
+  const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
+  const spotlight = useMotionTemplate`radial-gradient(520px circle at ${mouseX}px ${mouseY}px, rgba(8, 8, 8, 0.12), transparent 42%)`;
 
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -43,6 +46,19 @@ export default function PortfolioExperience({ content }) {
     };
   }, []);
 
+  useEffect(() => {
+    const handlePointerMove = (event) => {
+      mouseX.set(event.clientX);
+      mouseY.set(event.clientY);
+    };
+
+    window.addEventListener("pointermove", handlePointerMove);
+
+    return () => {
+      window.removeEventListener("pointermove", handlePointerMove);
+    };
+  }, [mouseX, mouseY]);
+
   return (
     <div className="relative min-h-screen overflow-hidden">
       <motion.div
@@ -50,6 +66,7 @@ export default function PortfolioExperience({ content }) {
         style={{ scaleX }}
         aria-hidden="true"
       />
+      <motion.div className="pointer-events-none fixed inset-0 z-[2] hidden mix-blend-multiply md:block" style={{ background: spotlight }} aria-hidden="true" />
       <div className="noise" aria-hidden="true" />
       <div className="grain" aria-hidden="true" />
       <Navigation nav={content.nav} site={content.site} />

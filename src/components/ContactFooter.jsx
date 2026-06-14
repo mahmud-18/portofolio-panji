@@ -1,11 +1,13 @@
 "use client";
 
-import { ArrowUpRight, Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { ArrowUpRight, Camera, Github, Linkedin, Mail, MapPin, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
 const socialIcons = {
   GitHub: Github,
   LinkedIn: Linkedin,
+  Instagram: Camera,
+  Facebook: Users,
   Email: Mail
 };
 

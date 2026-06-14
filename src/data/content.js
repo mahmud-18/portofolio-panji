@@ -483,7 +483,6 @@ export const portfolioContent = {
     },
   },
   footer: {
-    note: "Personal brand portfolio based on Panji Pangestu's English CV.",
-    copyright: "Panji Pangestu",
+    copyright: "Panji Pangestu || Buildiing Web by Mud Developer",
   },
 };
